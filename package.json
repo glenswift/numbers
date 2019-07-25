@@ -1,0 +1,21 @@
+{
+  "name": "random-number",
+  "author": "Anton Sapyanov <anton.sapyanov@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "lerna exec --parallel -- yarn dev"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "dependencies": {
+    "dotenv": "^6.2.0",
+    "dotenv-expand": "^4.2.0"
+  },
+  "devDependencies": {
+    "lerna": "^3.4.3",
+    "ts-jest": "^23.10.4",
+    "typescript": "^3.1.3"
+  }
+}
