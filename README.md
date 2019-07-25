@@ -3,7 +3,7 @@
 This code misses some important features (like error handling) and common design
 practices (like usage of `typesafe-actions`), tests and other stuff. 
 
-This made intentionally to save time spent on test task, I hope we'll get 
+This has been made intentionally to save time spent on test task, I hope we'll get 
 chance to discuss this issues during interview.
 
 To start run:
